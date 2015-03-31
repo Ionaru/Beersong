@@ -1,14 +1,14 @@
 public class BeerSong {
 
 	public static void main(String[] args) {
-		//Settings for the song
+		// Settings for the song
 		int drinksNumTotal = 100;
 		String containerSingle = "bottle";
 		String containerMultiple = "bottles";
 		String drink = "beer";
 		int numberOfDrinksToTake = 1;
-		
-		//Song data
+
+		// Song data
 		String container = containerMultiple;
 		String word;
 
@@ -17,14 +17,15 @@ public class BeerSong {
 				container = containerSingle;
 			}
 			System.out.println();
-			System.out.println(drinksNumTotal + " " + container + " of " + drink + " on the wall");
-			System.out.println(drinksNumTotal + " " + container + " of " + drink + ".");
+			System.out.println(drinksNumTotal + " " + container + " of "
+					+ drink + " on the wall");
+			System.out.println(drinksNumTotal + " " + container + " of "
+					+ drink + ".");
 			System.out.println("Take " + numberOfDrinksToTake + " down.");
-			
-			if (numberOfDrinksToTake > 1){
+
+			if (numberOfDrinksToTake > 1) {
 				word = "them";
-			}
-			else {
+			} else {
 				word = "it";
 			}
 			System.out.println("Pass " + word + " around");
@@ -34,10 +35,11 @@ public class BeerSong {
 				if (drinksNumTotal == 1) {
 					container = containerSingle;
 				}
-				System.out.println("You've got " + drinksNumTotal + " " + container
-						+ " of " + drink + " on the wall");
+				System.out.println("You've got " + drinksNumTotal + " "
+						+ container + " of " + drink + " on the wall");
 			} else {
-				System.out.println("No more " + containerMultiple + " of " + drink + " on the wall");
+				System.out.println("No more " + containerMultiple + " of "
+						+ drink + " on the wall");
 			}
 		}
 	}
