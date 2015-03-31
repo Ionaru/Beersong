@@ -3,9 +3,9 @@ public class BeerSong {
 	public static void main(String[] args) {
 		//Settings for the song
 		int drinksNumTotal = 100;
-		String containerSingle = "can";
-		String containerMultiple = "cans";
-		String drink = "soda";
+		String containerSingle = "bottle";
+		String containerMultiple = "bottles";
+		String drink = "beer";
 		int numberOfDrinksToTake = 1;
 		
 		//Song data
