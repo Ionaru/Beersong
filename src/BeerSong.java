@@ -2,7 +2,7 @@
 public class BeerSong {
 
 	public static void main(String[] args) {
-		int beerNum = 99;
+		int beerNum = 100;
 		String word = "bottles";
 		
 		while (beerNum > 0){
@@ -14,7 +14,7 @@ public class BeerSong {
 			System.out.println(beerNum + " " + word + " of beer.");
 			System.out.println("Take two down.");
 			System.out.println("Pass them around");
-			beerNum = beerNum - 1;
+			beerNum = beerNum - 2;
 			
 			if(beerNum > 0){
 				if(beerNum == 1){
