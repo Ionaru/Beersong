@@ -12,8 +12,8 @@ public class BeerSong {
 			System.out.println();
 			System.out.println(beerNum + " " + word + " of beer on the wall");
 			System.out.println(beerNum + " " + word + " of beer.");
-			System.out.println("Take one down.");
-			System.out.println("Pass it around");
+			System.out.println("Take two down.");
+			System.out.println("Pass them around");
 			beerNum = beerNum - 1;
 			
 			if(beerNum > 0){
