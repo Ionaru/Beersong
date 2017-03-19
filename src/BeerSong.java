@@ -13,7 +13,7 @@ public class BeerSong {
 
         // Song data
         String container = containerMultiple;
-        String word;
+        String pronoun;
         int drinksLeft = totalDrinksOnTheWall;
         int runsLeft = songRuns;
         int drinksToTake;
@@ -39,12 +39,12 @@ public class BeerSong {
                 System.out.print("Take " + drinksToTake + " down");
 
                 if (drinksToTake > 1) {
-                    word = "them";
+                    pronoun = "them";
                 } else {
-                    word = "it";
+                    pronoun = "it";
                 }
 
-                System.out.print(" and pass " + word + " around, ");
+                System.out.print(" and pass " + pronoun + " around, ");
                 drinksLeft = drinksLeft - drinksToTake;
 
                 if (drinksLeft > 0) {
